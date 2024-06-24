@@ -3,21 +3,59 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #239ac2;
+  background-color: #239ac2; 
+  margin: 0;
+}
+
+
+.button {
+  position: absolute;
+  top: 20px; 
+  left: 20px;
+  padding: 20px;
+}
+
+.botones {
+  padding: 10px 20px;
+  background-color: #2761ff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 80px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botones a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.botones a:hover {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.botones:hover {
+  padding: 10px 20px;
+  background-color: #1a40a7;
+  transform: scale(1.05);
+  font-size: 14px;
 }
 
 .birthdayCard {
   position: relative;
-  width: 425px; /* Aumentado 1.7 veces de 250px */
-  height: 595px; /* Aumentado 1.7 veces de 350px */
+  width: 425px; 
+  height: 595px; 
   cursor: pointer;
   transform-style: preserve-3d;
-  transform: perspective(4250px); /* Aumentado 1.7 veces de 2500px */
+  transform: perspective(4250px); 
   transition: 1s;
 }
 
 .birthdayCard:hover {
-  transform: perspective(4250px) rotate(5deg); /* Aumentado 1.7 veces de 2500px */
+  transform: perspective(4250px) rotate(5deg); 
   box-shadow: inset 170px 34px 170px rgba(0, 0, 0, 0.2),
     0 17px 170px rgba(0, 0, 0, 0.5);
 }
@@ -33,8 +71,8 @@ body {
 .cardFront {
   position: relative;
   background-color: #fff;
-  width: 425px; /* Aumentado 1.7 veces de 250px */
-  height: 595px; /* Aumentado 1.7 veces de 350px */
+  width: 425px; 
+  height: 595px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 170px 34px 170px rgba(0, 0, 0, 0.2),
@@ -46,7 +84,7 @@ body {
   font-family: Tahoma, sans-serif;
   font-size: 30px;
   text-align: center;
-  margin: 51px; /* Aumentado 1.7 veces de 30px */
+  margin: 51px; 
   background-image: linear-gradient(120deg, #ffd856 0%, #f98c6e 100%);
   transition: 0.1s;
 }
@@ -60,33 +98,33 @@ body {
 .balloon-3,
 .balloon-4 {
   position: absolute;
-  width: 144.5px; /* Aumentado 1.7 veces de 85px */
-  height: 161.5px; /* Aumentado 1.7 veces de 95px */
+  width: 144.5px;
+  height: 161.5px; 
   border-radius: 50%;
 }
 
 .balloon-1 {
   background-color: rgba(255, 40, 90, 0.7);
-  left: -17px; /* Aumentado 1.7 veces de -10px */
-  top: 85px; /* Aumentado 1.7 veces de 50px */
+  left: -17px;
+  top: 85px; 
 }
 
 .balloon-2 {
   background-color: rgba(9, 215, 160, 0.7);
-  left: 85px; /* Aumentado 1.7 veces de 50px */
-  top: 34px; /* Aumentado 1.7 veces de 20px */
+  left: 85px;
+  top: 34px;
 }
 
 .balloon-3 {
   background-color: rgba(255, 186, 26, 0.7);
-  left: 187px; /* Aumentado 1.7 veces de 110px */
-  top: 85px; /* Aumentado 1.7 veces de 50px */
+  left: 187px; 
+  top: 85px; 
 }
 
 .balloon-4 {
   background-color: rgba(12, 122, 159, 0.7);
-  left: 289px; /* Aumentado 1.7 veces de 170px */
-  top: 85px; /* Aumentado 1.7 veces de 50px */
+  left: 289px; 
+  top: 85px; 
 }
 
 .balloon-1::before,
@@ -95,11 +133,11 @@ body {
 .balloon-4::before {
   content: "";
   position: absolute;
-  width: 1.7px; /* Aumentado 1.7 veces de 1px */
-  height: 263.5px; /* Aumentado 1.7 veces de 155px */
+  width: 1.7px; 
+  height: 263.5px;
   background-color: #ffc848;
-  top: 161.5px; /* Aumentado 1.7 veces de 95px */
-  left: 73px; /* Aumentado 1.7 veces de 43px */
+  top: 161.5px; 
+  left: 73px; 
 }
 
 .balloon-1::after,
@@ -108,33 +146,33 @@ body {
 .balloon-4::after {
   content: "";
   position: absolute;
-  border-right: 11.9px solid transparent; /* Aumentado 1.7 veces de 7px */
-  border-left: 11.9px solid transparent; /* Aumentado 1.7 veces de 7px */
-  top: 160px; /* Aumentado 1.7 veces de 94px */
-  left: 62.9px; /* Aumentado 1.7 veces de 37px */
+  border-right: 11.9px solid transparent;
+  border-left: 11.9px solid transparent; 
+  top: 160px; 
+  left: 62.9px;
 }
 
 .balloon-1::after {
-  border-bottom: 17px solid #ff3e6b; /* Aumentado 1.7 veces de 10px */
+  border-bottom: 17px solid #ff3e6b; 
 }
 
 .balloon-2::after {
-  border-bottom: 17px solid #04b183; /* Aumentado 1.7 veces de 10px */
+  border-bottom: 17px solid #04b183; 
 }
 
 .balloon-3::after {
-  border-bottom: 17px solid #ffc94c; /* Aumentado 1.7 veces de 10px */
+  border-bottom: 17px solid #ffc94c; 
 }
 
 .balloon-4::after {
-  border-bottom: 17px solid #13a9bd; /* Aumentado 1.7 veces de 10px */
+  border-bottom: 17px solid #13a9bd; 
 }
 
 .cardInside {
   position: absolute;
   background-color: #fff;
-  width: 425px; /* Aumentado 1.7 veces de 250px */
-  height: 595px; /* Aumentado 1.7 veces de 350px */
+  width: 425px; 
+  height: 595px;
   z-index: -1;
   left: 0;
   top: 0;
@@ -143,14 +181,14 @@ body {
 
 p {
   font-family: "Brush Script MT", cursive;
-  margin: 68px; /* Aumentado 1.7 veces de 40px */
+  margin: 68px; 
   color: #333;
 }
 
 .name {
   position: absolute;
-  left: 255px; /* Aumentado 1.7 veces de 150px */
-  top: 340px; /* Aumentado 1.7 veces de 200px */
+  left: 255px; 
+  top: 340px; 
   color: #333;
 }
 
@@ -159,7 +197,7 @@ p {
   font-size: 30px;
   color: #333;
   text-align: center;
-  margin: 51px; /* Aumentado 1.7 veces de 30px */
+  margin: 51px; 
   outline-color: #333;
   outline-style: dotted;
 }
