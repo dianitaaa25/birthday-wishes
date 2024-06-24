@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #239ac2;
+}
+
+.birthdayCard {
+  position: relative;
+  width: 425px; /* Aumentado 1.7 veces de 250px */
+  height: 595px; /* Aumentado 1.7 veces de 350px */
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: perspective(4250px); /* Aumentado 1.7 veces de 2500px */
+  transition: 1s;
+}
+
+.birthdayCard:hover {
+  transform: perspective(4250px) rotate(5deg); /* Aumentado 1.7 veces de 2500px */
+  box-shadow: inset 170px 34px 170px rgba(0, 0, 0, 0.2),
+    0 17px 170px rgba(0, 0, 0, 0.5);
+}
+
+.birthdayCard:hover .cardFront {
+  transform: rotateY(-160deg);
+}
+
+.birthdayCard:hover .happy {
+  visibility: hidden;
+}
+
+.cardFront {
+  position: relative;
+  background-color: #fff;
+  width: 425px; /* Aumentado 1.7 veces de 250px */
+  height: 595px; /* Aumentado 1.7 veces de 350px */
+  overflow: hidden;
+  transform-origin: left;
+  box-shadow: inset 170px 34px 170px rgba(0, 0, 0, 0.2),
+    51px 0 85px rgba(0, 0, 0, 0.4);
+  transition: 0.6s;
+}
+
+.happy {
+  font-family: Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 51px; /* Aumentado 1.7 veces de 30px */
+  background-image: linear-gradient(120deg, #ffd856 0%, #f98c6e 100%);
+  transition: 0.1s;
+}
+
+.balloons {
+  position: absolute;
+}
+
+.balloon-1,
+.balloon-2,
+.balloon-3,
+.balloon-4 {
+  position: absolute;
+  width: 144.5px; /* Aumentado 1.7 veces de 85px */
+  height: 161.5px; /* Aumentado 1.7 veces de 95px */
+  border-radius: 50%;
+}
+
+.balloon-1 {
+  background-color: rgba(255, 40, 90, 0.7);
+  left: -17px; /* Aumentado 1.7 veces de -10px */
+  top: 85px; /* Aumentado 1.7 veces de 50px */
+}
+
+.balloon-2 {
+  background-color: rgba(9, 215, 160, 0.7);
+  left: 85px; /* Aumentado 1.7 veces de 50px */
+  top: 34px; /* Aumentado 1.7 veces de 20px */
+}
+
+.balloon-3 {
+  background-color: rgba(255, 186, 26, 0.7);
+  left: 187px; /* Aumentado 1.7 veces de 110px */
+  top: 85px; /* Aumentado 1.7 veces de 50px */
+}
+
+.balloon-4 {
+  background-color: rgba(12, 122, 159, 0.7);
+  left: 289px; /* Aumentado 1.7 veces de 170px */
+  top: 85px; /* Aumentado 1.7 veces de 50px */
+}
+
+.balloon-1::before,
+.balloon-2::before,
+.balloon-3::before,
+.balloon-4::before {
+  content: "";
+  position: absolute;
+  width: 1.7px; /* Aumentado 1.7 veces de 1px */
+  height: 263.5px; /* Aumentado 1.7 veces de 155px */
+  background-color: #ffc848;
+  top: 161.5px; /* Aumentado 1.7 veces de 95px */
+  left: 73px; /* Aumentado 1.7 veces de 43px */
+}
+
+.balloon-1::after,
+.balloon-2::after,
+.balloon-3::after,
+.balloon-4::after {
+  content: "";
+  position: absolute;
+  border-right: 11.9px solid transparent; /* Aumentado 1.7 veces de 7px */
+  border-left: 11.9px solid transparent; /* Aumentado 1.7 veces de 7px */
+  top: 160px; /* Aumentado 1.7 veces de 94px */
+  left: 62.9px; /* Aumentado 1.7 veces de 37px */
+}
+
+.balloon-1::after {
+  border-bottom: 17px solid #ff3e6b; /* Aumentado 1.7 veces de 10px */
+}
+
+.balloon-2::after {
+  border-bottom: 17px solid #04b183; /* Aumentado 1.7 veces de 10px */
+}
+
+.balloon-3::after {
+  border-bottom: 17px solid #ffc94c; /* Aumentado 1.7 veces de 10px */
+}
+
+.balloon-4::after {
+  border-bottom: 17px solid #13a9bd; /* Aumentado 1.7 veces de 10px */
+}
+
+.cardInside {
+  position: absolute;
+  background-color: #fff;
+  width: 425px; /* Aumentado 1.7 veces de 250px */
+  height: 595px; /* Aumentado 1.7 veces de 350px */
+  z-index: -1;
+  left: 0;
+  top: 0;
+  box-shadow: inset 170px 34px 170px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-family: "Brush Script MT", cursive;
+  margin: 68px; /* Aumentado 1.7 veces de 40px */
+  color: #333;
+}
+
+.name {
+  position: absolute;
+  left: 255px; /* Aumentado 1.7 veces de 150px */
+  top: 340px; /* Aumentado 1.7 veces de 200px */
+  color: #333;
+}
+
+.back {
+  font-family: Tahoma, sans-serif;
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin: 51px; /* Aumentado 1.7 veces de 30px */
+  outline-color: #333;
+  outline-style: dotted;
+}
