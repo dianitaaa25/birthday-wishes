@@ -20,7 +20,7 @@ body{
     border: none;
 }
 .botones a {
-    background-color: #0aa2e9;
+    background-color: #239ac2;
     padding: 9px 20px;
     border-radius: 80px;
     text-decoration: none;
@@ -37,7 +37,7 @@ body{
     background-color:transparent;
     transform: scale(1.05);
     border: 3px solid transparent; 
-    border-color: #0aa2e9; 
+    border-color: #239ac2; 
 }
 
 .greetings{
