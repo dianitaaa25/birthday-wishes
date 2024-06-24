@@ -35,10 +35,10 @@ body{
     background-color: rgb(50, 194, 194);
 }
 .botones a:hover {
-    background-color:transparent;
+    background-color:#17527a;
     transform: scale(1.05);
     border: 3px solid transparent; 
-    border-color: #239ac2; 
+    
 }
 
 .greetings{
