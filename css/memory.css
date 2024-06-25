@@ -5,8 +5,47 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: #347a9d;
+  background: linear-gradient( to right, rgb(84, 201, 255), rgb(19, 47, 172)) !important;
   color: white;
+}
+
+
+.button {
+  position: absolute;
+  top: 20px; 
+  left: 20px;
+  padding: 20px;
+}
+
+.botones {
+  padding: 10px 20px;
+  background-color: #2761ff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 80px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+  z-index: 9999;
+}
+
+.botones a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.botones a:hover {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.botones:hover {
+  padding: 10px 20px;
+  background-color: #1a40a7;
+  transform: scale(1.05);
+  font-size: 14px;
 }
 
 .song {
