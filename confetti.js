@@ -211,3 +211,16 @@ var confetti = {
 		}
 	}
 })();
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const birthdayCard = document.querySelector('.birthdayCard');
+
+    birthdayCard.addEventListener('click', function() {
+        confetti.start();
+        
+        setTimeout(function() {
+            confetti.stop();
+        }, 5000); // 5000 milisegundos = 5 segundos
+    });
+});
