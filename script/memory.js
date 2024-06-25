@@ -1,12 +1,12 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Do you want to play music in the background?',
+        title: '¿Quieres reproducir música de fondo?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes',
+        confirmButtonText: 'Sí',
         cancelButtonText: 'No',
     }).then((result) => {
         if (result.isConfirmed) {
@@ -21,6 +21,10 @@ window.addEventListener('load', () => {
 
 // animation timeline
 const animationTimeline = () => {
+    // Establecer z-index alto para el botón al iniciar la animación
+    const regresarBtn = document.querySelector('.button');
+    regresarBtn.style.zIndex = 9999;
+
     // split chars that needs to be animated individually
     const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
     const hbd = document.getElementsByClassName("wish-hbd")[0];
