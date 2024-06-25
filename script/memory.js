@@ -1,22 +1,5 @@
-// trigger to play music in the background with sweetalert
-window.addEventListener('load', () => {
-    Swal.fire({
-        title: '¿Quieres reproducir música de fondo?',
-        icon: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Sí',
-        cancelButtonText: 'No',
-    }).then((result) => {
-        if (result.isConfirmed) {
-            document.querySelector('.song').play(); // Reproducir música solo si se confirma "Sí"
-            animationTimeline();
-        } else {
-            animationTimeline();
-        }
-    });
-});
+animationTimeline();
+
 
 
 // animation timeline
