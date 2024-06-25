@@ -4,8 +4,8 @@ window.addEventListener('load', () => {
         title: 'Se va a reproducir música de fondo.',
         icon: 'warning',
         showCancelButton: true,
-        //confirmButtonColor: '#3085d6',
-        //cancelButtonColor: '#d33',
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
         //confirmButtonText: 'Sí',
         //cancelButtonText: 'No',
     }).then((result) => {
