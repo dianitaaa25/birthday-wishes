@@ -23,6 +23,8 @@ body{
     background-color: #239ac2;
     padding: 9px 20px;
     border-radius: 80px;
+    height: 20px;
+    width: 250px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
