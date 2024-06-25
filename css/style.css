@@ -140,7 +140,8 @@ body{
 @media screen and (max-width:574px){
     .greetings{
         display: block;
-        font-size: 20rem;
+        margin-top: 150px;
+        font-size: 4rem;
         font-weight: 800;
         text-align: center;
     }
