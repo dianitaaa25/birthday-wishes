@@ -207,3 +207,45 @@ body{
     }
 }
 
+
+.col {
+    flex: 1 1 200px; /* Tamaño mínimo de columna */
+    max-width: 200px; /* Ancho máximo de columna */
+}
+
+@media screen and (max-width: 768px) {
+    .greetings {
+        font-size: 4rem;
+        margin-top: 100px;
+    }
+    .description {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .neon {
+        width: 180px;
+        height: 36px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .greetings {
+        font-size: 3rem;
+        margin-top: 150px;
+    }
+    .description {
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .neon {
+        width: 160px;
+        height: 32px;
+        font-size: 0.8rem;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
