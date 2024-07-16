@@ -160,7 +160,7 @@ body {
   /*Sombra negra*/
   #cover-ctn-search{
     width: 100%;
-    height: 1200px;
+    height: 100%;
     top: 68px;
     position: fixed;
     background: rgba(0,0,0,0.5);
