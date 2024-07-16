@@ -1,88 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Card</title>
-    <!-- CSS -->
-    <link rel="icon" href="img/flowers.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/card.css" />
+<html lang="es">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-  </head>
-  <body>
-
-    <div class="button">
-      <a href="main.html" >
-        <button class="botones">
-          Regresar
-       </button>
-      </a>
-  </div>
-
-  <script src="confetti.js"></script>
-  <!-- Confetti  JS-->
-  <script>
-
-      // start
-
-      const start = () => {
-          setTimeout(function() {
-              confetti.start()
-          }, 0); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
-      };
-
-      //  Stop
-
-      const stop = () => {
-          setTimeout(function() {
-              confetti.stop()
-          }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
-      };
-
-      start();
-      stop();
-  </script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hearts.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Happy Birthday!</title>
+</head>
 
 
-    <div class="birthdayCard">
-      <div class="cardFront">
-        <h3 class="happy">HAPPY BIRTHDAY!</h3>
-        <div class="balloons">
-          <div class="balloon-1"></div>
-          <div class="balloon-2"></div>
-          <div class="balloon-3"></div>
-          <div class="balloon-4"></div>
-        </div>
-      </div>
-      <div class="cardInside">
-        <h3 class="back">HAPPY BIRTHDAY</h3>
-        <p class="saludo">Mi querida Dianita,</p>
-        <p class="mensaje">
-          El día de cumpleaños debe ser un día muy bonito y especial, por eso espero 
-          que el tuyo sea exactamente así, porque lo mereces. A mi parecer, este día 
-          actúa como un recordatorio de lo mucho que quieres alguien, siendo tú ese alguien 
-          para mí, haciendo que de esta forma se pueda aprovechar la ocasión en demostrar 
-          a ese alguien la importancia y valor que tienen para nosotros, recordándole que 
-          nunca se debe dejar de soñar ni perder la fe, porque mueve montañas, y que <br>
-          sus anhelos siempre pueden volverse realidad.
-        </p>
-        <p class="mensaje">                
-          Quiero expresarte que mis mejores deseos son para ti, para que hoy y siempre
-          seas sumamente feliz, que la vida solo te sorprenda con grandes bendiciones y que 
-          los malos momentos sean solo pasajeros. Eres una persona muy especial, de interior 
-          tan bonito como tu exterior, espero que nunca cambies y que sepas que puedes contar 
-          conmigo siempre que lo necesites.
-        </p>
-        <p class="mensaje">                
-          Esperando que esta carta te guste, o al menos te haga sonreír, la dejo en tus manos.
-          P. D.: Las otras páginas reproducen sonido. Te quiere muchísimo...
-        </p>
-        <p class="name">Samil</p>
-      </div>
+<body>
+    <div class="greetings">
+        <span>¡</span>
+        <span>F</span>
+        <span>e</span>
+        <span>l</span>
+        <span>i</span>
+        <span>z</span>
+        <span>&nbsp;</span>
+        <span>C</span>
+        <span>u</span>
+        <span>m</span>
+        <span>p</span>
+        <span>l</span>
+        <span>e</span>
+        <span>a</span>
+        <span>ñ</span>
+        <span>o</span>
+        <span>s</span>
+        <span>!</span>
     </div>
-  </body>
+    
+    <div class="description">
+        <span>Por motivo de tu cumpleaños, he creado este pequeño sitio web para ti. Espero que te guste. A continuación, podrás acceder a tres páginas distintas de este regalo, ¡adelante! :D </span>
+    </div>
+
+   
+
+    <a href="memory.html" style="color: #fff;" class="neon">Dar recorrido</a>
+
+    <a href="card.html" style="color: #fff;" class="neon">Leer carta</a>
+  
+    <a href="flower.html" style="color: #fff;" class="neon">Ver flores</a>
+
+    <a href="games2.html" style="color: #fff;" class="neon">Jugar juegos</a>
+
+
+    <div class="container">
+        <div class="col">
+            <div class="heart heart1">
+                <div class="circle"></div>
+                <div class="halfMoon"></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="heart heart2">
+                <div class="circle"></div>
+                <div class="halfMoon"></div>
+            </div>    
+        </div>
+        <div class="col">
+            <div class="heart heart3">
+                <div class="circle"></div>
+                <div class="halfMoon"></div>
+            </div>    
+        </div>    
+        <div class="col">
+            <div class="heart heart4">
+                <div class="circle"></div>
+                <div class="halfMoon"></div>
+            </div>    
+        </div>
+        <div class="col">
+            <div class="heart heart5">
+                <div class="circle"></div>
+                <div class="halfMoon"></div>
+            </div>    
+        </div>    
+    </div>
+
+
+    </div>
+
+
+    <!-- Créditos -->
+    <div class="credits">
+        <!--<p>&copy; 2023 Aprende Con JS.</p>-->
+    </div>
+
+
+</body>
+
 </html>
