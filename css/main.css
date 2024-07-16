@@ -96,7 +96,7 @@
         display: flex;
     }
     .greetings{
-        margin-top: 300px;
+        margin-top: 100px;
         font-size: 6rem;
         font-weight: 900;
     }
@@ -216,7 +216,7 @@
     @media screen and (max-width: 1358px) {
         .greetings {
             font-size: 4rem;
-            margin-top: 0;
+            margin-top: 300px;
         }
         .description {
             font-size: 1.6rem;
@@ -240,7 +240,7 @@
     @media screen and (max-width: 1078px) {
         .greetings {
             font-size: 3.5rem;
-            margin-top: 0;
+            margin-top: 300px;
         }
         .description {
             font-size: 1.4rem;
@@ -265,7 +265,7 @@
     @media screen and (max-width: 768px) {
         .greetings {
             font-size: 2.5rem;
-            margin-top: 0;
+            margin-top: 300px;
         }
         .description {
             font-size: 1.2rem;
@@ -291,6 +291,7 @@
     @media screen and (max-width: 574px) {
         .greetings {
             font-size: 2rem;
+            margin-top: 300px;
         }
         .description {
             font-size: 1rem;
@@ -320,6 +321,7 @@
     @media screen and (max-width: 298px) {
         .greetings {
             font-size: 1.7rem;
+            margin-top: 300px;
         }
         .description {
             font-size: 1rem;
