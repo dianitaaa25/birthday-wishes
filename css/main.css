@@ -195,27 +195,4 @@
         flex: 1 1 200px; /* Tamaño mínimo de columna */
         max-width: 200px; /* Ancho máximo de columna */
     }
-  @media screen and (max-width: 1358px) {
-        .greetings {
-            font-size: 4rem;
-            margin-top: 200px;
-        }
-        .description {
-            font-size: 1.6rem;
-            padding: 10px;
-            margin-top: 40px;
-        }
-        .neon {
-            width: 180px;
-            height: 36px;
-            font-size: 0.9rem;
-        }
-        .container1 {
-            margin-top: 250px;
-            align-items: center;
-            gap: 10px;
-        }
-        .credits{
-            margin-bottom: 100px;
-        }
-    }
+ 
