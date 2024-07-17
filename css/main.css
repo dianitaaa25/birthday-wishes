@@ -212,7 +212,7 @@
             font-size: 0.9rem;
         }
         .container1 {
-            align-items: center;
+            text-align: center;
             gap: 10px;
         }
         .credits{
