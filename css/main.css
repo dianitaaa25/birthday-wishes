@@ -220,11 +220,11 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            margin-top: 350px;          
+            margin-top: 300px;          
             gap: 10px;
         }
-        .credits{
-            margin-bottom: 100px;
+        .container{
+            margin-bottom: 200px;
         }
     }
 
