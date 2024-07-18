@@ -197,22 +197,30 @@
     }
  
   @media screen and (max-width: 1358px) {
+        .greetings {
+            display: flex;
+            justify-content: center;
+            font-size: 2.5rem;
+            margin-top: 200px;          
+            gap: 10px;
+        }
+        .description {
+            font-size: 1.3rem;
+            padding: 10px;
+            margin-top: 40px;
+        }
+        .neon {
+            width: 180px;
+            height: 36px;
+            font-size: 0.9rem;
+        }
         .container1 {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
-            font-size: 2.5em; /* Tamaño de fuente por defecto */
-        }
-        .greetings {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 10px 0; /* Espacio entre líneas */
-        }
-        .greetings span {
-            display: inline-block;
+            gap: 10px;
         }
         .credits{
             margin-bottom: 100px;
