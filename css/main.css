@@ -198,7 +198,7 @@
  
   @media screen and (max-width: 1358px) {
         .greetings {
-            font-size: 3rem;
+            font-size: 2.5rem;
             margin-top: 600px;
             text-align: center;
             flex-direction: column;
@@ -206,7 +206,7 @@
             gap: 10px;
         }
         .description {
-            font-size: 1.6rem;
+            font-size: 1.3rem;
             padding: 10px;
             margin-top: 40px;
         }
