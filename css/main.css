@@ -197,15 +197,10 @@
     }
  
   @media screen and (max-width: 1358px) {
-         body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
+         body, html {            
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #f0f0f0;
         }
         .container1 {
             display: flex;
