@@ -200,7 +200,7 @@
         .greetings {
             display: flex;
             justify-content: center;
-            font-size: 2.1rem;
+            font-size: 2rem;
             margin-top: 0;          
             gap: 10px;
         }
@@ -223,7 +223,7 @@
             margin-top: 300px;          
             gap: 10px;
         }
-        .container{
+        .credits{
             margin-bottom: 200px;
         }
     }
