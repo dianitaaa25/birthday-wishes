@@ -226,6 +226,9 @@
         .credits{
             margin-bottom: 200px;
         }
+        .hide-on-mobile {
+                display: none; /* Oculta en dispositivos pequeños */
+            }
     }
 
     @media screen and (max-width: 1078px) {
