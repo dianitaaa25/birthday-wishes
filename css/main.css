@@ -197,11 +197,6 @@
     }
  
   @media screen and (max-width: 1358px) {
-         body, html {            
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
         .container1 {
             display: flex;
             flex-direction: column;
